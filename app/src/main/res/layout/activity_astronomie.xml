@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AstronomieActivity">
+
+    <Button
+        android:id="@+id/accueil3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="ACCUEIL"
+        android:textColor="@android:color/white"
+        android:background="@drawable/terre"/>
+    <Button
+        android:id="@+id/astronomie2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/soleil"
+        android:text="ASTRONOMIE"
+        android:textColor="@android:color/holo_red_dark"/>
+    <TextView
+        android:id="@+id/avertissement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="horaire en UTC !" />
+    <TextView
+        android:id="@+id/leverSol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lever" />
+    <TextView
+        android:id="@+id/zenithSol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zenith" />
+    <TextView
+        android:id="@+id/coucherSol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="coucher" />
+    <TextView
+        android:id="@+id/civil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="crépuscule civil" />
+    <TextView
+        android:id="@+id/nautique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="crépuscule nautique" />
+    <TextView
+        android:id="@+id/astronomique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="crépuscule astronomique" />
+
+
+
+
+
+</LinearLayout>

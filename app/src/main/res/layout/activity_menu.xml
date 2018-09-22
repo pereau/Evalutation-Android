@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/geolocalisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Géolocalisation" />
+            <ImageView
+                android:id="@+id/imgMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/map" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/meteo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Météo du jour" />
+            <ImageView
+                android:id="@+id/imgMeteo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/meteo" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/astronomie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aube et crépuscule" />
+            <ImageView
+                android:id="@+id/imgSoleil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/soleil" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
