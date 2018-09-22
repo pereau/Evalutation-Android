@@ -6,23 +6,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".AstronomieActivity">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
     <Button
         android:id="@+id/accueil3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:layout_marginTop="0dp"
+        android:background="@drawable/terre"
         android:text="ACCUEIL"
-        android:textColor="@android:color/white"
-        android:background="@drawable/terre"/>
+        android:textColor="@android:color/white" />
     <Button
         android:id="@+id/astronomie2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:layout_marginTop="2dp"
         android:background="@drawable/soleil"
         android:text="ASTRONOMIE"
         android:textColor="@android:color/holo_red_dark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <TextView
         android:id="@+id/avertissement"
         android:layout_width="wrap_content"
@@ -58,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="crépuscule astronomique" />
-
+        </LinearLayout>
 
 
 
